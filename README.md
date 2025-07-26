@@ -123,7 +123,198 @@ This line chart shows the trend of aviation events over the years, highlighting 
 This bar chart identifies which aircraft categories experience the most severe outcomes.
 
 
-blob:http://localhost:8888/9aea53e7-9236-43dc-aace-168666a40c7b
+{
+  "config": {"view": {"continuousWidth": 300, "continuousHeight": 300}},
+  "data": {"name": "data-d7d651bdce611488ed6c2343a7ba091b"},
+  "mark": {"type": "bar"},
+  "encoding": {
+    "color": {
+      "field": "Injury_Severity_Categorized",
+      "title": "Injury Severity",
+      "type": "nominal"
+    },
+    "tooltip": [
+      {"field": "Aircraft_Category", "type": "nominal"},
+      {"field": "Injury_Severity_Categorized", "type": "nominal"},
+      {"field": "Count", "type": "quantitative"}
+    ],
+    "x": {
+      "field": "Aircraft_Category",
+      "title": "Aircraft Category",
+      "type": "nominal"
+    },
+    "y": {
+      "field": "Count",
+      "title": "Number of Incidents",
+      "type": "quantitative"
+    }
+  },
+  "height": 600,
+  "params": [
+    {
+      "name": "param_1",
+      "select": {"type": "interval", "encodings": ["x", "y"]},
+      "bind": "scales"
+    }
+  ],
+  "title": "Injury Severity by Aircraft Category",
+  "width": 800,
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.8.0.json",
+  "datasets": {
+    "data-d7d651bdce611488ed6c2343a7ba091b": [
+      {
+        "Aircraft_Category": "Airplane",
+        "Injury_Severity_Categorized": "Fatal",
+        "Count": 82942
+      },
+      {
+        "Aircraft_Category": "Airplane",
+        "Injury_Severity_Categorized": "Incident",
+        "Count": 2209
+      },
+      {
+        "Aircraft_Category": "Airplane",
+        "Injury_Severity_Categorized": "Minor",
+        "Count": 176
+      },
+      {
+        "Aircraft_Category": "Airplane",
+        "Injury_Severity_Categorized": "Other/Unknown",
+        "Count": 93
+      },
+      {
+        "Aircraft_Category": "Airplane",
+        "Injury_Severity_Categorized": "Serious",
+        "Count": 135
+      },
+      {
+        "Aircraft_Category": "Balloon",
+        "Injury_Severity_Categorized": "Fatal",
+        "Count": 225
+      },
+      {
+        "Aircraft_Category": "Balloon",
+        "Injury_Severity_Categorized": "Serious",
+        "Count": 6
+      },
+      {
+        "Aircraft_Category": "Blimp",
+        "Injury_Severity_Categorized": "Fatal",
+        "Count": 4
+      },
+      {
+        "Aircraft_Category": "Glider",
+        "Injury_Severity_Categorized": "Fatal",
+        "Count": 502
+      },
+      {
+        "Aircraft_Category": "Glider",
+        "Injury_Severity_Categorized": "Minor",
+        "Count": 4
+      },
+      {
+        "Aircraft_Category": "Glider",
+        "Injury_Severity_Categorized": "Serious",
+        "Count": 2
+      },
+      {
+        "Aircraft_Category": "Gyrocraft",
+        "Injury_Severity_Categorized": "Fatal",
+        "Count": 168
+      },
+      {
+        "Aircraft_Category": "Gyrocraft",
+        "Injury_Severity_Categorized": "Minor",
+        "Count": 5
+      },
+      {
+        "Aircraft_Category": "Helicopter",
+        "Injury_Severity_Categorized": "Fatal",
+        "Count": 3370
+      },
+      {
+        "Aircraft_Category": "Helicopter",
+        "Injury_Severity_Categorized": "Incident",
+        "Count": 9
+      },
+      {
+        "Aircraft_Category": "Helicopter",
+        "Injury_Severity_Categorized": "Minor",
+        "Count": 33
+      },
+      {
+        "Aircraft_Category": "Helicopter",
+        "Injury_Severity_Categorized": "Other/Unknown",
+        "Count": 3
+      },
+      {
+        "Aircraft_Category": "Helicopter",
+        "Injury_Severity_Categorized": "Serious",
+        "Count": 25
+      },
+      {
+        "Aircraft_Category": "Powered Parachute",
+        "Injury_Severity_Categorized": "Fatal",
+        "Count": 89
+      },
+      {
+        "Aircraft_Category": "Powered Parachute",
+        "Injury_Severity_Categorized": "Serious",
+        "Count": 2
+      },
+      {
+        "Aircraft_Category": "Powered-Lift",
+        "Injury_Severity_Categorized": "Fatal",
+        "Count": 4
+      },
+      {
+        "Aircraft_Category": "Powered-Lift",
+        "Injury_Severity_Categorized": "Incident",
+        "Count": 1
+      },
+      {
+        "Aircraft_Category": "Rocket",
+        "Injury_Severity_Categorized": "Fatal",
+        "Count": 1
+      },
+      {
+        "Aircraft_Category": "ULTR",
+        "Injury_Severity_Categorized": "Serious",
+        "Count": 1
+      },
+      {
+        "Aircraft_Category": "UNK",
+        "Injury_Severity_Categorized": "Fatal",
+        "Count": 2
+      },
+      {
+        "Aircraft_Category": "Ultralight",
+        "Injury_Severity_Categorized": "Fatal",
+        "Count": 30
+      },
+      {
+        "Aircraft_Category": "Unknown",
+        "Injury_Severity_Categorized": "Fatal",
+        "Count": 14
+      },
+      {
+        "Aircraft_Category": "WSFT",
+        "Injury_Severity_Categorized": "Fatal",
+        "Count": 7
+      },
+      {
+        "Aircraft_Category": "WSFT",
+        "Injury_Severity_Categorized": "Serious",
+        "Count": 2
+      },
+      {
+        "Aircraft_Category": "Weight-Shift",
+        "Injury_Severity_Categorized": "Fatal",
+        "Count": 161
+      }
+    ]
+  }
+}
 
 ---
 
