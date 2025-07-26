@@ -1,0 +1,17 @@
+# Ignore checkpoints and temporary files
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+*.DS_Store
+
+# Ignore Excel and Tableau files if too large
+*.xlsx
+*.twbx
+*.json
+
+# Ignore system and Jupyter junk
+.env
+.vscode/
+.idea/
+*.log
