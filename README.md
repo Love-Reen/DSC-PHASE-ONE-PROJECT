@@ -73,8 +73,7 @@ Start with investing in **Multi-engine Land** aircraft used for **Business or Co
 - [Final Notebook](./Doreen_project.ipynb)
 - [Presentation (PDF)](./presentation.pdf)
 - [Cleaned Dataset (CSV)](./Aviation_Data_Cleaned.csv)
-- [Dashboard (Tableau Public)]([insert your Tableau Public link here!](https://public.tableau.com/app/profile/doreen.wathimu/viz/DW-PHASE-ONE-TABLEAU/Dashboard1?publish=yes](https://public.tableau.com/app/profile/doreen.wathimu/viz/DW-PHASE-ONE-TABLEAU/AviationRiskAssessmentData-DrivenInsightsforStrategicProcument)](https://public.tableau.com/app/profile/doreen.wathimu/viz/DW-PHASE-ONE-TABLEAU/AviationRiskAssessmentData-DrivenInsightsforStrategicProcument)
-
+- [Dashboard (Tableau Public)](https://public.tableau.com/app/profile/doreen.wathimu/viz/DW-PHASE-ONE-TABLEAU/AviationRiskAssessmentData-DrivenInsightsforStrategicProcument)
 ---
 
 ##  Author
