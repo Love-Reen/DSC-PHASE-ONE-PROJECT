@@ -57,6 +57,12 @@ Visualizing how weather conditions correlate with incident severity.
 
 ## Conclusion
 
+From our analysis:
+- Some aircraft categories and makes have higher injury severity than others.
+- Most incidents happen during landing and takeoff.
+- Clear weather still presents risks — human error or mechanical failure dominate.
+
+
 ###  Summary of Findings:
 - **Helicopters and Experimental Aircrafts** showed a higher proportion of fatal incidents.
 - **Good weather** does not guarantee low risk — many severe incidents still occurred under clear conditions.
@@ -64,6 +70,11 @@ Visualizing how weather conditions correlate with incident severity.
 
 ### Recommendation:
 Start with investing in **Multi-engine Land** aircraft used for **Business or Commuter** purposes under **favorable weather**, as they showed lower incident severity in historical data.
+
+- Purchase aircraft from makes with historically low injury severity.
+- Prioritize pilot training for takeoff and landing.
+- Avoid aircraft with high accident counts in turbulent weather conditions.
+- Develop real-time risk dashboards to monitor flight conditions and aircraft performance.
 
 ---
 
